@@ -1,0 +1,518 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07162f">
+  <meta name="description" content="Seçiver - Kullanım Koşulları / Terms of Use">
+  <title>Seçiver | Kullanım Koşulları</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #07162f;
+      --card: #192747;
+      --text: #f7f7ff;
+      --muted: #b8c2d8;
+      --purple: #7950f5;
+      --border: #344364;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Arial, sans-serif;
+      line-height: 1.75;
+    }
+    header {
+      padding: 55px 20px 45px;
+      text-align: center;
+      background: linear-gradient(135deg, #122346, #382477);
+    }
+    .brand {
+      font-size: 36px;
+      font-weight: 800;
+      letter-spacing: -.8px;
+    }
+    .subtitle { color: #ddd5ff; margin: 8px 0 22px; }
+    .languages {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    button {
+      border: 1px solid #a28aff;
+      border-radius: 24px;
+      background: transparent;
+      color: white;
+      padding: 9px 22px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button.active { background: var(--purple); }
+    main {
+      max-width: 850px;
+      margin: 35px auto;
+      padding: 0 18px;
+    }
+    .intro {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px 26px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 19px;
+      line-height: 1.4;
+    }
+    p { margin: 0 0 12px; }
+    p:last-child { margin-bottom: 0; }
+    a {
+      color: #b6a1ff;
+      overflow-wrap: anywhere;
+    }
+    .date {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 25px 18px 45px;
+      font-size: 13px;
+    }
+    [hidden] { display: none !important; }
+    @media (max-width: 600px) {
+      header { padding: 38px 15px; }
+      .brand { font-size: 30px; }
+      section { padding: 18px; }
+      h2 { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="brand">Seçiver</div>
+  <p class="subtitle" id="subtitle">Kullanım Koşulları</p>
+  <div class="languages">
+    <button id="trButton" class="active"
+            onclick="changeLanguage('tr')">Türkçe</button>
+    <button id="enButton"
+            onclick="changeLanguage('en')">English</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- TÜRKÇE -->
+  <article id="trContent" lang="tr">
+    <p class="date">Son güncelleme: 26 Ekim 2026</p>
+    <p class="intro">
+      Seçiver'e hoş geldiniz. Bu koşullar, Seçiver mobil
+      uygulamasının kullanımına ilişkin kuralları açıklar.
+      Uygulamayı kullanmadan önce lütfen okuyunuz.
+    </p>
+
+    <section>
+      <h2>1. Hizmetin Tanımı</h2>
+      <p>
+        Seçiver; yemek, gezi, film, oyun, etkinlik ve günlük
+        yaşamın diğer konularında karar vermeye yardımcı olan
+        bir mobil uygulamadır.
+      </p>
+      <p>
+        Kullanıcılar kendi seçeneklerini oluşturabilir,
+        birden fazla kişinin fikirlerini toplayabilir,
+        karar çarkını kullanabilir ve yapay zekâ destekli
+        öneriler alabilir.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Karar Çarkı</h2>
+      <p>
+        Karar çarkı, girilen seçenekler arasından bir sonuç
+        belirlemek için kullanılır. Sonuçlar tavsiye
+        niteliğindedir ve belirli bir fayda veya memnuniyet
+        garanti edilmez.
+      </p>
+      <p>
+        Nihai karar ve kararın uygulanması kullanıcıya aittir.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Yapay Zekâ Önerileri</h2>
+      <p>
+        Seçiver, bazı özelliklerinde yapay zekâ hizmetlerinden
+        yararlanır. Üretilen öneriler yanlış, eksik veya
+        güncelliğini yitirmiş bilgiler içerebilir.
+      </p>
+      <p>
+        Restoran, işletme, gezi ve etkinlik önerilerindeki
+        fiyat, adres, çalışma saatleri ve müsaitlik bilgileri
+        ilgili kaynaklardan ayrıca doğrulanmalıdır.
+      </p>
+      <p>
+        Öneriler profesyonel, tıbbi, hukuki veya finansal
+        danışmanlık yerine geçmez.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Kullanıcı Sorumlulukları</h2>
+      <p>
+        Kullanıcılar uygulamayı hukuka uygun kullanmalı,
+        başkalarının haklarını ihlal eden içerikler
+        oluşturmamalı ve uygulamanın güvenliğini veya
+        işleyişini bozacak faaliyetlerde bulunmamalıdır.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Krediler ve Ücretsiz Kullanım</h2>
+      <p>
+        Seçiver, bazı özellikler için kredi tabanlı bir
+        kullanım sistemi sunar. Özelliklerin kredi bedelleri
+        uygulama içerisinde gösterilir.
+      </p>
+      <p>
+        Ücretsiz kullanım hakları ile satın alınan krediler
+        farklı koşullara tabi olabilir. Ücretsiz kullanımda
+        reklamlar gösterilebilir.
+      </p>
+      <p>
+        Kredi paketleri için gerçek satın alma özelliği henüz
+        etkinleştirilmemiştir. Satın alma açıldığında geçerli
+        fiyatlandırma ve kredi kullanım koşulları işlemden
+        önce açıklanacaktır.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Satın Alma ve İadeler</h2>
+      <p>
+        Kredi satın alma özelliği etkinleştirildiğinde
+        işlemler ilgili uygulama mağazasının ödeme sistemi
+        üzerinden gerçekleştirilecektir.
+      </p>
+      <p>
+        Fiyatlar ve uygulanabilir vergiler satın alma
+        öncesinde gösterilecektir. İade talepleri, ilgili
+        mağazanın prosedürleri ve yürürlükteki tüketici
+        mevzuatı çerçevesinde değerlendirilecektir.
+      </p>
+      <p>
+        Bu bölüm, henüz etkinleştirilmemiş bir satın alma
+        hizmetinin şu anda sunulduğu anlamına gelmez.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Reklamlar ve Sponsorlu İçerikler</h2>
+      <p>
+        Seçiver, ücretsiz kullanımın desteklenmesi amacıyla
+        reklam gösterebilir.
+      </p>
+      <p>
+        Gelecekte sponsorlu işletme veya etkinlik önerileri
+        sunulabilir. Bu özellik etkinleştirildiğinde ücretli
+        tanıtımlar uygun şekilde işaretlenecektir.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Üçüncü Taraf Hizmetleri</h2>
+      <p>
+        Uygulama, özelliklerinin çalışması için Firebase,
+        OpenAI, GeoNames ve Google AdMob gibi üçüncü taraf
+        hizmetlerden yararlanabilir.
+      </p>
+      <p>
+        Bu hizmetlerin erişilebilirliği ve işleyişi ilgili
+        sağlayıcılara bağlı olabilir.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Hizmetin Kullanılabilirliği</h2>
+      <p>
+        Teknik bakım, internet bağlantısı sorunları veya
+        üçüncü taraf hizmetlerdeki kesintiler nedeniyle
+        uygulamanın bazı özellikleri geçici olarak
+        kullanılamayabilir.
+      </p>
+      <p>
+        Hizmetin her zaman kesintisiz veya hatasız çalışacağı
+        garanti edilmez.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Gizlilik ve Kişisel Veriler</h2>
+      <p>
+        Kişisel verilerin işlenmesine ilişkin ayrıntılar
+        Gizlilik Politikası'nda açıklanmaktadır.
+      </p>
+      <p>
+        <a href="https://mukem00.github.io/seciver-privacy/">
+          Gizlilik Politikasını Görüntüle
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Koşulların Güncellenmesi</h2>
+      <p>
+        Bu koşullar, uygulamanın özellikleri veya yasal
+        gereklilikler doğrultusunda güncellenebilir.
+        Önemli değişiklikler gerektiğinde uygun yöntemlerle
+        kullanıcılara duyurulur.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. İletişim ve Destek</h2>
+      <p>
+        Sorularınız ve geri bildirimleriniz için:
+      </p>
+      <p>
+        E-posta:
+        <a href="mailto:seciverapp@gmail.com">
+          seciverapp@gmail.com
+        </a>
+      </p>
+      <p>
+        <a href="https://mukem00.github.io/seciver-support/">
+          Destek Sayfası
+        </a>
+      </p>
+    </section>
+  </article>
+
+  <!-- ENGLISH -->
+  <article id="enContent" lang="en" hidden>
+    <p class="date">Last updated: October 26, 2026</p>
+    <p class="intro">
+      Welcome to Seçiver. These Terms of Use explain the
+      rules for using the Seçiver mobile application.
+      Please read them before using the app.
+    </p>
+
+    <section>
+      <h2>1. Description of the Service</h2>
+      <p>
+        Seçiver is a mobile application designed to help
+        users make everyday decisions about food, travel,
+        movies, games, activities, and other topics.
+      </p>
+      <p>
+        Users can create options, collect ideas from multiple
+        participants, use a decision wheel, and request
+        AI-generated suggestions.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Decision Wheel</h2>
+      <p>
+        The decision wheel selects a result from the provided
+        options. Results are suggestions only, and no
+        particular benefit or satisfaction is guaranteed.
+      </p>
+      <p>
+        Users remain responsible for their final decisions
+        and actions.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. AI-Generated Suggestions</h2>
+      <p>
+        Seçiver uses artificial intelligence services for
+        certain features. Generated suggestions may be
+        inaccurate, incomplete, or outdated.
+      </p>
+      <p>
+        Users should independently verify restaurant and
+        business details, prices, addresses, opening hours,
+        and availability.
+      </p>
+      <p>
+        Suggestions do not constitute professional medical,
+        legal, or financial advice.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. User Responsibilities</h2>
+      <p>
+        Users must comply with applicable laws, respect the
+        rights of others, and avoid activities that interfere
+        with the security or operation of the application.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Credits and Free Usage</h2>
+      <p>
+        Certain features of Seçiver use a credit-based system.
+        Applicable credit costs are displayed in the app.
+      </p>
+      <p>
+        Free usage allowances may differ from purchased
+        credits. Advertisements may appear during free usage.
+      </p>
+      <p>
+        Credit purchases are not yet enabled. Once available,
+        applicable prices and credit usage conditions will be
+        disclosed before purchase.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Purchases and Refunds</h2>
+      <p>
+        When credit purchases become available, transactions
+        will be processed through the relevant app store's
+        payment system.
+      </p>
+      <p>
+        Prices and applicable taxes will be displayed before
+        purchase. Refund requests will be handled according
+        to applicable consumer laws and the relevant store's
+        procedures.
+      </p>
+      <p>
+        This section does not mean that purchases are
+        currently available.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Advertisements and Sponsored Content</h2>
+      <p>
+        Seçiver may display advertisements to support free
+        access to the application.
+      </p>
+      <p>
+        Sponsored business or activity recommendations may
+        be introduced in the future. Paid promotions will
+        be appropriately identified if this feature launches.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Third-Party Services</h2>
+      <p>
+        Seçiver may rely on third-party services, including
+        Firebase, OpenAI, GeoNames, and Google AdMob.
+      </p>
+      <p>
+        The availability and operation of these services
+        may depend on their respective providers.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Service Availability</h2>
+      <p>
+        Certain features may become temporarily unavailable
+        due to maintenance, connectivity issues, or
+        third-party service interruptions.
+      </p>
+      <p>
+        Continuous and error-free operation is not guaranteed.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Privacy and Personal Data</h2>
+      <p>
+        Information about the processing of personal data
+        is provided in our Privacy Policy.
+      </p>
+      <p>
+        <a href="https://mukem00.github.io/seciver-privacy/">
+          View Privacy Policy
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Changes to These Terms</h2>
+      <p>
+        These terms may be updated to reflect changes to
+        the application or applicable legal requirements.
+        Material changes will be communicated through
+        appropriate channels when necessary.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Contact and Support</h2>
+      <p>
+        For questions or feedback, contact:
+      </p>
+      <p>
+        Email:
+        <a href="mailto:seciverapp@gmail.com">
+          seciverapp@gmail.com
+        </a>
+      </p>
+      <p>
+        <a href="https://mukem00.github.io/seciver-support/">
+          Support Page
+        </a>
+      </p>
+    </section>
+  </article>
+
+</main>
+
+<footer>
+  © 2026 Seçiver
+</footer>
+
+<script>
+  function changeLanguage(language) {
+    const isTurkish = language === "tr";
+
+    document.getElementById("trContent").hidden = !isTurkish;
+    document.getElementById("enContent").hidden = isTurkish;
+
+    document.getElementById("trButton")
+      .classList.toggle("active", isTurkish);
+    document.getElementById("enButton")
+      .classList.toggle("active", !isTurkish);
+
+    document.getElementById("subtitle").textContent =
+      isTurkish ? "Kullanım Koşulları" : "Terms of Use";
+
+    document.documentElement.lang = language;
+    document.title = isTurkish
+      ? "Seçiver | Kullanım Koşulları"
+      : "Seçiver | Terms of Use";
+  }
+
+  const browserLanguage =
+    (navigator.language || "tr").toLowerCase();
+
+  changeLanguage(
+    browserLanguage.startsWith("tr") ? "tr" : "en"
+  );
+</script>
+
+</body>
+</html>
